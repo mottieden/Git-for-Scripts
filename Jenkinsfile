@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                cmd 'python script.py'
+              "C:\Program Files\Python37-64\python.exe" script.py 
             }
         }
     }
