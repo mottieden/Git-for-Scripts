@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-              "C:\Program Files\Python37-64\python.exe" script.py 
+              "C:\Users\admin\Downloads\python-3.10.0-embed-win32\python.exe" script.py 
             }
         }
     }
