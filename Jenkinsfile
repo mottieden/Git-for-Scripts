@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-            powershell 'C://Users//admin//Downloads//python-3.10.0-embed-win32//python.exe script.py'
+            set PYTHONPATH=%PYTHONPATH%;C:\Users\ksaha029\AppData\Local\Programs\Python\Python3
+            python C:\Users\ksaha029\Documents\Python_scripts\first.py
             }
         }
     }
