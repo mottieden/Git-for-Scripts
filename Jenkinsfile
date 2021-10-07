@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-            set PYTHONPATH=%PYTHONPATH%;C:\Users\ksaha029\AppData\Local\Programs\Python\Python3
-            python C:\Users\ksaha029\Documents\Python_scripts\first.py
+                    set PATH=C:\Users\admin\Downloads\python-3.10.0-embed-win32;%PATH%python https://github.com/mottieden/Git-for-Scripts.git
             }
         }
     }
