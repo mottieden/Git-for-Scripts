@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') { 
             steps {
-            echo "Hello Word"
+             sh "Python3 python.py"
             }
         }
     }
